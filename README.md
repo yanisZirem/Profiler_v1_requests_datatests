@@ -89,7 +89,7 @@ Feel free to open issues or submit pull requests.
 
 ## 🧑‍🔬 Authors
 
-Developed by Yanis Zirem (yanis.zirem@univ-lille.fr) and collaborators at [PRISM, INSERM U1192](https://www.inserm.fr/en/research-inserm/prism-u1192/), Lille, France.
+Developed by Yanis Zirem (yanis.zirem@univ-lille.fr) [PRISM, INSERM U1192](https://www.inserm.fr/en/research-inserm/prism-u1192/), Lille, France.
 
 ---
 
