@@ -3,7 +3,9 @@
 > **Interactive Web Application for Omics Data Analysis**
 
 
-Welcome to **Profiler**, a user-friendly web platform that enables real-time exploration, preprocessing, visualization, and classification of omics datasets, including proteomics, metabolomics, RNAseq, and more.
+Profiler is a cutting-edge omics data analysis platform developed by the PRISM U1192 Laboratory and protected by INSERM Transfer. Conceived by Yanis Zirem (PhD, 2025) under the mentorship of Prof. Michel Salzet and Prof. Isabelle Fournier, Profiler redefines how scientists interact with complex biological datasets.
+
+Bringing together the power of AI, statistics, and automation, Profiler makes biological data analysis intuitive, efficient, and insightful.
 > **Where Omics meet clarity**
 
 **Try it live**: [https://prism-profiler.univ-lille.fr/](https://prism-profiler.univ-lille.fr/)
@@ -11,15 +13,26 @@ Welcome to **Profiler**, a user-friendly web platform that enables real-time exp
 ---
 
 ##  Features
+# Multi-Omics Support
+Analyze data from proteomics, metabolomics, lipidomics, genomics, transcriptomics, and more.
 
-- 📁 Upload structured data (.csv, .xlsx, .tsv, .txt)
-- 🔍 Preprocessing (normalization, imputation, binning)
-- 📊 PCA, t-SNE, UMAP visualization
-- 🎯 Supervised classification (Random Forest, SVM, Logistic Regression...)
-- 🤖 Unsupervised clustering (K-Means with silhouette analysis)
-- 🔬 SHAP interpretation and model explainability
-- 📌 Marker selection and survival analysis (Kaplan-Meier)
+# Effortless Preprocessing
+Seamlessly convert, clean, and explore your data with just a few clicks.
 
+# Integrated AI & Statistics
+Combine classical statistical methods with machine learning and deep learning — all in one unified platform.
+
+# Explainable Results
+Gain clarity with LIME, SHAP, volcano plots, clustering heatmaps, and other insightful visualizations.
+
+# Smart Recommendations
+Let Profiler suggest the best statistical tests and imputation strategies tailored to your dataset.
+
+# High-Performance Computing
+Engineered for speed with a powerful back-end optimized for large-scale omics data.
+
+# End-to-End Workflow
+From raw data to biological interpretation — Profiler guides you every step of the way.
 ---
 
 ## 📂 Example Datasets
@@ -54,7 +67,7 @@ No installation is required. All analysis is done in your browser, with full pri
 
 ## 🛠️ Technologies Used
 
-- Python · Streamlit · scikit-learn · pandas · plotly · SHAP · lifelines
+- Python · Streamlit · scikit-learn · pandas · plotly · lifelines...
 
 ---
 
