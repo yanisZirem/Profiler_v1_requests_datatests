@@ -95,4 +95,15 @@ Developed by Yanis Zirem (yanis.zirem@univ-lille.fr) [PRISM, INSERM U1192](https
 
 ## 📄 License
 
-To be defined. Contact us if you wish to reuse, fork or collaborate on this project.
+Profiler is a proprietary software protected by INSERM Transfert (France), and developed within the PRISM U1192 laboratory (Université de Lille, CNRS, INSERM).
+
+The source code is not publicly available under an open source license.
+
+All rights are reserved. Any reproduction or distribution (in part or in whole) is subject to explicit authorization by the authors and Inserm Transfert.
+
+If you are interested in collaborating or licencing please contact:
+
+📩 yanis.zirem@univ-lille.fr
+📩 michel.salzet@univ-lille.fr
+ 📩isabelle.fournier@univ-lille.fr
+🔗 [PRISM U1192 Website](https://www.inserm.fr/en/research-inserm/prism-u1192/)  
