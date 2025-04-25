@@ -47,9 +47,6 @@ Sample datasets are provided in this repository under the following folders:
 ├── Structured_data/
 ├── Survival_data/
 
-yaml
-Copier
-Modifier
 
 Each folder contains demo files compatible with the corresponding data format. Use them to explore Profiler features.
 
