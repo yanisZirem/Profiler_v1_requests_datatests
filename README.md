@@ -1,106 +1,148 @@
-# Profiler
+# Profiler: Interactive Web Platform for Omics Data Analysis
 
-> **Interactive Web Application for Omics Data Analysis**
+> **Where Omics Meet Clarity**  
+> Developed by [PRISM U1192 Laboratory](https://www.inserm.fr/en/research-inserm/prism-u1192/), Université de Lille  
+> Protected by INSERM Transfert
 
+[🌐 Try Profiler Live](https://prism-profiler.univ-lille.fr/)
 
-Profiler is a cutting-edge omics data analysis platform developed by the PRISM U1192 Laboratory and protected by INSERM Transfer. Conceived by Yanis Zirem (PhD, 2025) under the mentorship of Prof. Michel Salzet and Prof. Isabelle Fournier, Profiler redefines how scientists interact with complex biological datasets.
+Profiler is a next-generation, web-based platform for **multi-omics data analysis**, designed to simplify complex workflows and make advanced analytics accessible to all researchers, regardless of programming expertise.
 
-Bringing together the power of AI, statistics, and automation, Profiler makes biological data analysis intuitive, efficient, and insightful.
-> **Where Omics meet clarity**
-
-**Try it live**: [https://prism-profiler.univ-lille.fr/](https://prism-profiler.univ-lille.fr/)
+Created by **Yanis Zirem (PhD Candidate, 2025)** under the guidance of **Prof. Michel Salzet** and **Prof. Isabelle Fournier**, Profiler bridges artificial intelligence, statistics, and intuitive visualization to deliver meaningful biological insights.
 
 ---
 
-##  Features
-# Multi-Omics Support
-Analyze data from proteomics, metabolomics, lipidomics, genomics, transcriptomics, and more.
+## Why Profiler?
 
-# Effortless Preprocessing
-Seamlessly convert, clean, and explore your data with just a few clicks.
+🔍 Biomedical research generates *huge volumes* of omics data, from genes to metabolites.  
+❗ The problem? Analysis bottlenecks due to complexity, software limitations, or coding expertise gaps.  
+✅ The solution: **Profiler**, a smart, modular, and user-friendly web app that guides users from raw files to biological interpretation.
 
-# Integrated AI & Statistics
-Combine classical statistical methods with machine learning and deep learning — all in one unified platform.
+---
 
-# Explainable Results
-Gain clarity with LIME, SHAP, volcano plots, clustering heatmaps, and other insightful visualizations.
+## 🌟 Key Features
 
-# Smart Recommendations
-Let Profiler suggest the best statistical tests and imputation strategies tailored to your dataset.
+## From Raw Files to Biological Insight
+Profiler provides a complete end-to-end workflow : 
 
-# High-Performance Computing
-Engineered for speed with a powerful back-end optimized for large-scale omics data.
+### Multi-Omics Compatibility
+Handle proteomics, metabolomics, lipidomics, genomics, and transcriptomics datasets — all in one platform.
 
-# End-to-End Workflow
-From raw data to biological interpretation — Profiler guides you every step of the way.
+### Raw Data Conversion
+Supports formats from major vendors (Bruker, Thermo, Waters) with conversion to open standards: `mzML`, `mzXML`, `mzDB`, `mz5`.
+
+### Intuitive Preprocessing
+Normalize, filter, bin, and impute missing values without writing a single line of code.
+
+### AI & Statistical Integration
+Train over 25 machine learning models, use deep learning, and apply classical tests — no switching between tools.
+
+### Biomarker Discovery & Explainability
+Reveal predictive features using **SHAP**, **LIME**, volcano plots, clustering, and more.
+
+### Survival Analysis
+Built-in tools for **Kaplan-Meier** curves, **Cox regression**, and clinical outcomes.
+
+### Smart Recommendations
+Let Profiler suggest the best preprocessing steps and statistical strategies based on your dataset.
+
+### Pathway Enrichment Analysis
+Explore biological pathways and functional annotation for deeper interpretation.
+
+### Wizard Mode
+Automated workflows for real-time predictions or guided post-hoc analysis.
+
+### High-Performance Backend
+Profiler is engineered for **speed** and **scalability**, ideal for large-scale omics projects.
+
 ---
 
 ## 📂 Example Datasets
 
-Sample datasets are provided in this repository under the following folders:
+Sample datasets are included for testing and exploration:
 
-/datasets
+
+
 ├── Bruker_data/
+├── Waters_data/
 ├── DIA-NN_data/
 ├── Maxquant_data/
 ├── Perseus_data/
-├── Structured_data/
+├── Tabular_data/
 ├── Survival_data/
-
-
-Each folder contains demo files compatible with the corresponding data format. Use them to explore Profiler features.
+Tabular data contain 3 dataset (lipids ions), proteins and RNAseq)
 
 ---
 
-## 🧠 Getting Started
+## Who Should Use Profiler?
 
-1. Go to the [web interface](https://prism-profiler.univ-lille.fr/)
-2. Upload one of the sample datasets provided
-3. Explore preprocessing, visualization, classification, and more!
-
-No installation is required. All analysis is done in your browser, with full privacy and interactivity.
+- 🔬 Researchers needing reproducible, end-to-end omics workflows  
+- 🧑‍⚕️ Clinicians exploring biomarkers and survival outcomes  
+- 🎓 Students & bioinformaticians learning data science methods  
+- Core facilities seeking robust, shareable analytical pipelines  
 
 ---
 
-## 🛠️ Technologies Used
+## Getting Started
 
-- Python · Streamlit · scikit-learn · pandas · plotly · lifelines...
+1. Visit: [https://prism-profiler.univ-lille.fr/](https://prism-profiler.univ-lille.fr/)
+2. Upload a dataset (use the samples provided or your own)
+3. Dive into preprocessing, modeling, visualization, and more!
+
+✅ No installation required — fully browser-based with privacy-preserving execution.
+
+---
+
+## 🛠️ Tech Stack
+
+Built with:
+- **Python**
+- **Streamlit**
+- **scikit-learn**
+- **pandas**
+- **plotly**
+- **lifelines**
+- **Tensorflow**
+- Custom modules for omics parsing, modeling, visualization, and statistical analysis
 
 ---
 
 ## 📘 Documentation
 
-Detailed user documentation is in progress. A quick guide is available inside the application via tooltips and help boxes next to each feature.
+>A comprehensive PDF manual and full user guide available inside the app: tooltips, guided walkthroughs, and contextual help.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome, especially for:
-- Creating new example datasets
-- Suggesting new functionalities or improvements
-
-Feel free to open issues or submit pull requests.
-
----
-
-## 🧑‍🔬 Authors
-
-Developed by Yanis Zirem (yanis.zirem@univ-lille.fr) [PRISM, INSERM U1192](https://www.inserm.fr/en/research-inserm/prism-u1192/), Lille, France.
+We welcome contributions! You can help by:
+- Submitting example datasets
+- Suggesting features or improvements
+- Reporting bugs via GitHub issues
 
 ---
 
-## 📄 License
+## 👥 Authors
 
-Profiler is a proprietary software protected by INSERM Transfert (France), and developed within the PRISM U1192 laboratory (Université de Lille, CNRS, INSERM).
+**Yanis Zirem**, PhD Candidate (2025)  
+📧 yanis.zirem@univ-lille.fr
 
-The source code is not publicly available under an open source license.
+Supervised by:
+- **Prof. Michel Salzet** (michel.salzet@univ-lille.fr)  
+- **Prof. Isabelle Fournier** (isabelle.fournier@univ-lille.fr)
 
-All rights are reserved. Any reproduction or distribution (in part or in whole) is subject to explicit authorization by the authors and Inserm Transfert.
+[PRISM U1192 Laboratory](https://www.inserm.fr/en/research-inserm/prism-u1192/), INSERM – CNRS – Université de Lille
 
-If you are interested in collaborating or licencing please contact:
+---
 
-📩 yanis.zirem@univ-lille.fr
-📩 michel.salzet@univ-lille.fr
- 📩isabelle.fournier@univ-lille.fr
-🔗 [PRISM U1192 Website](https://www.inserm.fr/en/research-inserm/prism-u1192/)  
+## 📄 License & IP Notice
+
+**Profiler is proprietary software** developed by the PRISM U1192 Laboratory and protected by **INSERM Transfert**.
+
+- **All rights reserved**
+- Reproduction, modification, or distribution is prohibited without prior written consent
+- For licensing inquiries, contact the authors
+
+---
+
+> *Profiler: Empowering researchers to transform omics data into discovery.*
