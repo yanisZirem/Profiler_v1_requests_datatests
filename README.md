@@ -67,8 +67,17 @@ Sample datasets are included for testing and exploration:
 ├── Waters_data/
 ├── DIA-NN_data/
 ├── Maxquant_data/
-├── Perseus_data/
-├── Tabular_data/
+├── Tabular_data_multi_omics/
+    ├── Binary_classes/
+│       ├── toy_lipidomics_tumor_aggressiveness.csv
+│       ├── toy_proteomics_tumor_aggressiveness.csv
+│       ├── toy_rnaseq_tumor_aggressiveness.csv
+│       └── toy_metabolomics_tumor_aggressiveness.csv
+    ├── Multi_classes/
+│       ├── toy_lipidomics_tumor_necrosis_healthy.csv
+│       ├── toy_proteomics_tumor_necrosis_healthy.csv
+│       ├── toy_rnaseq_tumor_necrosis_healthy.csv
+│       └── toy_metabolomics_tumor_necrosis_healthy.csv
 ├── Survival_data/
 Tabular data contain 3 dataset (lipids ions), proteins and RNAseq)
 
