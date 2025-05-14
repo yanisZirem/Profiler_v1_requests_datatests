@@ -63,23 +63,25 @@ Sample datasets are included for testing and exploration:
 
 
 
-├── Bruker_data/
-├── Waters_data/
-├── DIA-NN_data/
-├── Maxquant_data/
-├── Tabular_data_multi_omics/
-    ├── Binary_classes/
-│       ├── toy_lipidomics_tumor_aggressiveness.csv
-│       ├── toy_proteomics_tumor_aggressiveness.csv
-│       ├── toy_rnaseq_tumor_aggressiveness.csv
-│       └── toy_metabolomics_tumor_aggressiveness.csv
-    ├── Multi_classes/
-│       ├── toy_lipidomics_tumor_necrosis_healthy.csv
-│       ├── toy_proteomics_tumor_necrosis_healthy.csv
-│       ├── toy_rnaseq_tumor_necrosis_healthy.csv
-│       └── toy_metabolomics_tumor_necrosis_healthy.csv
+├── Bruker_data/                    # Raw mass spectrometry data (zipped) from Bruker instruments
+├── Waters_data/                   # Raw mass spectrometry data (zipped) from Waters instruments
+├── DIA-NN_data/                   # DIA-NN processed output files (e.g., report.tsv, evidence.tsv)
+├── Maxquant_data/                 # MaxQuant output files (e.g., proteinGroups.txt, peptides.txt)
+├── Tabular_data_multi_omics/      # Cleaned, structured multi-omics datasets for ML & statistics
+│   ├── Binary_classes/
+│   │   ├── toy_lipidomics_tumor_aggressiveness.csv      # Simulated lipidomics data (Aggressive vs NonAggressive)
+│   │   ├── toy_proteomics_tumor_aggressiveness.csv      # Simulated proteomics data (same classes)
+│   │   ├── toy_rnaseq_tumor_aggressiveness.csv          # Simulated RNA-seq count data
+│   │   └── toy_metabolomics_tumor_aggressiveness.csv    # Simulated metabolomics profiles
+│   ├── Multi_classes/
+│   │   ├── toy_lipidomics_tumor_necrosis_healthy.csv    # Simulated lipidomics data (3-class)
+│   │   ├── toy_proteomics_tumor_necrosis_healthy.csv    # Simulated proteomics data (3-class)
+│   │   ├── toy_rnaseq_tumor_necrosis_healthy.csv        # Simulated RNA-seq (3-class)
+│   │   └── toy_metabolomics_tumor_necrosis_healthy.csv  # Simulated metabolomics (3-class)
 ├── Survival_data/
-Tabular data contain 3 dataset (lipids ions), proteins and RNAseq)
+│   ├── clinical_and_LipidsMarkers.csv         # Contains clinical variables + lipid markers for Cox modeling
+│   └── statuts_patients.csv     # Pre-processed survival data for Kaplan–Meier analysis
+
 
 ---
 
