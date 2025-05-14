@@ -61,28 +61,27 @@ Profiler is engineered for **speed** and **scalability**, ideal for large-scale 
 
 Sample datasets are included for testing and exploration:
 
+```
 
-
-├── Bruker_data/                    # Raw mass spectrometry data (zipped) from Bruker instruments
-├── Waters_data/                   # Raw mass spectrometry data (zipped) from Waters instruments
-├── DIA-NN_data/                   # DIA-NN processed output files (e.g., report.tsv, evidence.tsv)
-├── Maxquant_data/                 # MaxQuant output files (e.g., proteinGroups.txt, peptides.txt)
-├── Tabular_data_multi_omics/      # Cleaned, structured multi-omics datasets for ML & statistics
-│   ├── Binary_classes/
-│   │   ├── toy_lipidomics_tumor_aggressiveness.csv      # Simulated lipidomics data (Aggressive vs NonAggressive)
-│   │   ├── toy_proteomics_tumor_aggressiveness.csv      # Simulated proteomics data (same classes)
-│   │   ├── toy_rnaseq_tumor_aggressiveness.csv          # Simulated RNA-seq count data
-│   │   └── toy_metabolomics_tumor_aggressiveness.csv    # Simulated metabolomics profiles
-│   ├── Multi_classes/
-│   │   ├── toy_lipidomics_tumor_necrosis_healthy.csv    # Simulated lipidomics data (3-class)
-│   │   ├── toy_proteomics_tumor_necrosis_healthy.csv    # Simulated proteomics data (3-class)
-│   │   ├── toy_rnaseq_tumor_necrosis_healthy.csv        # Simulated RNA-seq (3-class)
-│   │   └── toy_metabolomics_tumor_necrosis_healthy.csv  # Simulated metabolomics (3-class)
-├── Survival_data/
-│   ├── clinical_and_LipidsMarkers.csv         # Contains clinical variables + lipid markers for Cox modeling
-│   └── statuts_patients.csv     # Pre-processed survival data for Kaplan–Meier analysis
-
-
+├── Bruker_data/                    # Raw mass spectrometry data (zipped) from Bruker instruments  
+├── Waters_data/                   # Raw mass spectrometry data (zipped) from Waters instruments  
+├── DIA-NN_data/                   # DIA-NN processed output files (report.pg_matrix.tsv)  
+├── Maxquant_data/                 # MaxQuant output files (proteinGroups.txt)  
+├── Tabular_data_multi_omics/      # Cleaned and structured multi-omics datasets   
+│   ├── Binary_classes/  
+│   │   ├── toy_lipidomics_tumor_aggressiveness.csv      # Simulated lipidomics data (Aggressive vs NonAggressive)  
+│   │   ├── toy_proteomics_tumor_aggressiveness.csv      # Simulated proteomics data 
+│   │   ├── toy_rnaseq_tumor_aggressiveness.csv          # Simulated RNA-seq count data  
+│   │   └── toy_metabolomics_tumor_aggressiveness.csv    # Simulated metabolomics profiles  
+│   ├── Multi_classes/  
+│   │   ├── toy_lipidomics_tumor_necrosis_healthy.csv    # Simulated lipidomics data (3-class Tumor, Necrosis and healthy samples)  
+│   │   ├── toy_proteomics_tumor_necrosis_healthy.csv    # Simulated proteomics data (3-class)  
+│   │   ├── toy_rnaseq_tumor_necrosis_healthy.csv        # Simulated RNA-seq (3-class)  
+│   │   └── toy_metabolomics_tumor_necrosis_healthy.csv  # Simulated metabolomics (3-class)  
+├── Survival_data/  
+│   ├── clinical_and_LipidsMarkers.csv         # Clinical variables + lipid markers for Cox modeling  
+│   └── statuts_patients.csv                  # Pre-processed survival data for Kaplan–Meier analysis  
+```
 ---
 
 ## Who Should Use Profiler?
