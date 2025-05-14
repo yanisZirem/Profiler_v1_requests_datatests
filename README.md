@@ -131,7 +131,7 @@ Supervised by:
 - **Prof. Michel Salzet** (michel.salzet@univ-lille.fr)  
 - **Prof. Isabelle Fournier** (isabelle.fournier@univ-lille.fr)
 
-[PRISM U1192 Laboratory](https://www.inserm.fr/en/research-inserm/prism-u1192/), INSERM – CNRS – Université de Lille
+[PRISM U1192 Laboratory](https://www.inserm.fr/en/research-inserm/prism-u1192/), INSERM – Université de Lille
 
 ---
 
