@@ -57,6 +57,28 @@ Profiler is engineered for **speed** and **scalability**, ideal for large-scale 
 
 ---
 
+## Additional Tools
+
+### MSI2profiler: Mass Spectrometry Imaging Data Extractor for Profiler
+
+`MSI2profiler.py` is a standalone desktop application developed with Tkinter to extract and bin spectra from MSI files (imzML format). It generates labeled CSV/Excel files ready for analysis in Profiler.
+
+**Features:** 
+- Load MSI .imzML files from whole tissue sections or regions of interest (ROIs)
+- Bin spectra intensities over a selectable mass range with configurable bin size
+- Normalize and optionally log-transform intensities.
+- Export processed data as labeled CSV or Excel files.
+- Visualize average spectra interactively to verify extraction consistency and detect errors
+- Reuse the workflow for multiple ROIs
+- Concatenate multiple CSV/Excel files into a single dataset for tabular import into Profiler
+
+**To run:**
+
+```bash
+python MSI2profiler.py
+```
+Make sure to have dependencies installed: pip install pandas numpy plotly pyimzml
+
 ## 📂 Example Datasets
 
 Sample datasets are included for testing and exploration:
@@ -83,6 +105,7 @@ Sample datasets are included for testing and exploration:
 │   └── statuts_patients.csv                  # Pre-processed survival data for Kaplan–Meier analysis  
 ```
 ---
+**Note:** The Tools/ folder contains the MSI2profiler.py application along with any necessary scripts or utilities for MSI data processing.
 
 ## Who Should Use Profiler?
 
