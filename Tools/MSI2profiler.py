@@ -49,7 +49,7 @@ def plot_average_spectra(data, class_column='Class'):
 class MSIExtractApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("MSIExtract")
+        self.root.title("MSI2Profiler-GUI")
         self.root.geometry("700x500")
         self.root.configure(bg="#f0f2f5")
 
