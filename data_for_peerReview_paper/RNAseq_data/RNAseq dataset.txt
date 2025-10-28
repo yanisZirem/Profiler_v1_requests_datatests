@@ -1,0 +1,5 @@
+The RNAseq dataset is available for download here: https://nextcloud.univ-lille.fr/index.php/s/Tgr6bg9yytej8en or https://archive.ics.uci.edu/dataset/401/gene%2Bexpression%2Bcance  r%2Brna%2Bseq?
+
+This dataset is part of the RNA-Seq (HiSeq) PANCAN data set, it is a random extraction of gene expressions of patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD.
+
+The original data set (hosted at https://www.synapse.org/#!Synapse:syn4301332) is maintained by the cancer genome atlas pan-cancer analysis project. DOI: 10.24432/C5R88H
