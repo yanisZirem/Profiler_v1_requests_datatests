@@ -30,7 +30,7 @@ Until the peer-reviewed publication is available, please cite the following refe
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ## From Raw Files to Biological Insight
 Profiler provides a complete end-to-end workflow : 
@@ -67,20 +67,12 @@ Profiler is engineered for **speed** and **scalability**, ideal for large-scale 
 
 ---
 
-## Additional Tools
+## Additional Tool: MSI2Profiler
 
-### MSI2profiler: Mass Spectrometry Imaging Data Extractor for Profiler
+Profiler includes an additional utility, **MSI2Profiler**, located in the `MSI2Profiler/` folder.  
+This standalone desktop app allows you to extract and preprocess MSI (Mass Spectrometry Imaging) data from `.imzML` files for use in Profiler.
 
-`MSI2profiler.py` is a standalone desktop application developed with Tkinter to extract and bin spectra from MSI files (imzML format). It generates labeled CSV/Excel files ready for analysis in Profiler.
-
-**Features:** 
-- Load MSI .imzML files from whole tissue sections or regions of interest (ROIs)
-- Bin spectra intensities over a selectable mass range with configurable bin size
-- Normalize and optionally log-transform intensities.
-- Export processed data as labeled CSV or Excel files.
-- Visualize average spectra interactively to verify extraction consistency and detect errors
-- Reuse the workflow for multiple ROIs
-- Concatenate multiple CSV/Excel files into a single dataset for tabular import into Profiler
+➡️ **For detailed instructions**, see the **[MSI2Profiler README](https://github.com/yanisZirem/prism-profiler/blob/main/Additional_tools/MSI2Profiler/MSI2Profiler%20README.md)**.
 
 **To run:**
 
