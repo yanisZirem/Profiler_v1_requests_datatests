@@ -6,9 +6,19 @@
 
 [🌐 Try Profiler Live](https://prism-profiler.univ-lille.fr/)
 
+[💻 Profiler Desktop version](https://github.com/yanisZirem/prism-profiler)
+
 Profiler is a next-generation, web-based platform for **multi-omics data analysis**, designed to simplify complex workflows and make advanced analytics accessible to all researchers, regardless of programming expertise.
 
-Created by **Yanis Zirem (PhD Candidate, 2025)** under the guidance of **Prof. Michel Salzet** and **Prof. Isabelle Fournier**, Profiler bridges artificial intelligence, statistics, and intuitive visualization to deliver meaningful biological insights.
+Created by **Yanis Zirem (PhD Candidate, 2025)** under the guidance of **Prof. Michel Salzet** and **Prof. Isabelle Fournier**, Profiler bridges artificial intelligence, statistics and intuitive visualization to deliver meaningful biological insights.
+### Citation
+
+Until the peer-reviewed publication is available, please cite the following reference when using **Profiler** or **Profiler Desktop** in scientific works:
+
+> **Zirem, Y., Ledoux, L., Fournier, I., & Salzet, M.**  
+> *Profiler: an open web platform for multi-omics analysis.*  
+> Université de Lille, 2025.  
+> DOI: [10.21203/rs.3.rs-7058776/v1](https://doi.org/10.21203/rs.3.rs-7058776/v1)
 
 ---
 
@@ -165,16 +175,6 @@ Supervised by:
 - **Prof. Isabelle Fournier** (isabelle.fournier@univ-lille.fr)
 
 [PRISM U1192 Laboratory](https://www.inserm.fr/en/research-inserm/prism-u1192/), INSERM – Université de Lille
-
----
-
-## 📄 License & IP Notice
-
-**Profiler is proprietary software** developed by the PRISM U1192 Laboratory and protected by **INSERM Transfert**.
-
-- **All rights reserved**
-- Reproduction, modification, or distribution is prohibited without prior written consent
-- For licensing inquiries, contact the authors
 
 ---
 
