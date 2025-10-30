@@ -1,0 +1,43 @@
+## License & Intellectual Property Notice
+
+**Profiler** is proprietary software developed by the  
+**PRISM U1192 Laboratory (INSERM / CHU de Lille / Université de Lille)**  
+and are protected under French and international intellectual property law.
+
+---
+
+### Legal Protection
+
+Profiler is registered with the **Agence pour la Protection des Programmes (APP)**  
+under the following IDDN certificate:
+
+**IDDN Certificate:**  
+**IDDN.FR.001.300044.000.S6.C7.2025.0009.3123010**  
+**Date of deposit:** 14/01/2025  
+**Rights holders:**  
+- INSERM – SIREN 180036048  
+- CHU de Lille – SIREN 265906719  
+- Université de Lille – SIREN 130023583  
+
+All intellectual property rights are owned jointly by these institutions.
+The main developer is Yanis Zirem. 
+
+---
+
+### Usage Terms
+
+- All rights reserved.  
+- Any **reproduction, modification, redistribution, or commercial use** of the software, in whole or in part, is **strictly prohibited** without prior **written authorization** from the rights holders.  
+- The software and its source code are provided for **research, academic collaboration, or evaluation purposes only**, under mutually agreed conditions.  
+- Redistribution or integration into other projects requires **explicit consent** from the authors and institutions listed above.  
+
+For licensing or collaboration inquiries, please contact the development team at:  
+📧 **yanis.zirem@univ-lille.fr**
+📧 **michel.salzet@univ-lille.fr**
+📧 **isabelle.fournier@univ-lille.fr**
+
+
+---
+
+© 2025 PRISM U1192 Laboratory – INSERM / CHU de Lille / Université de Lille  
+All rights reserved.
