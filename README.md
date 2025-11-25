@@ -70,7 +70,7 @@ Profiler is engineered for **speed** and **scalability**, ideal for large-scale 
 ## Additional Tool: MSI2Profiler
 
 Profiler includes an additional utility, **MSI2Profiler**, located in the `MSI2Profiler/` folder.  
-This standalone desktop app allows you to extract and preprocess MSI (Mass Spectrometry Imaging) data from `.imzML` files for use in Profiler.
+This standalone desktop app allows you to extract and preprocess MSI (Mass Spectrometry Imaging) data from `.imzML` files for use in Profiler. You donwload the app directlty frome the home page of profiler web.
 
 ➡️ **For detailed instructions**, see the **[MSI2Profiler README](https://github.com/yanisZirem/prism-profiler/blob/main/Additional_tools/MSI2Profiler/MSI2Profiler%20README.md)**.
 
