@@ -11,14 +11,15 @@
 Profiler is a next-generation, web-based platform for **multi-omics data analysis**, designed to simplify complex workflows and make advanced analytics accessible to all researchers, regardless of programming expertise.
 
 Created by **Yanis Zirem (PhD Candidate, 2025)** under the guidance of **Prof. Michel Salzet** and **Prof. Isabelle Fournier**, Profiler bridges artificial intelligence, statistics and intuitive visualization to deliver meaningful biological insights.
+
 ### Citation
+If you use **Profiler** or **Profiler Desktop** in your research, please cite our peer-reviewed publication:
 
-Until the peer-reviewed publication is available, please cite the following reference when using **Profiler** or **Profiler Desktop** in scientific works:
-
-> **Zirem, Y., Ledoux, L., Fournier, I., & Salzet, M.**  
-> *Profiler: an open web platform for multi-omics analysis.*  
-> Université de Lille, 2025.  
-> DOI: [10.21203/rs.3.rs-7058776/v1](https://doi.org/10.21203/rs.3.rs-7058776/v1)
+> **Zirem, Y., Ledoux, L., Fournier, I., & Salzet, M.**
+> *Profiler: an open web platform for multi-omics analysis.*
+> **Bioinformatics**, 2025.
+> DOI: [10.1093/bioinformatics/btaf644](https://doi.org/10.1093/bioinformatics/btaf644)
+> PMID: [41324558](https://pubmed.ncbi.nlm.nih.gov/41324558/)
 
 ---
 
