@@ -10,9 +10,8 @@
 
 ---
 
-**Profiler** is a free, open, web-based platform for end-to-end multi-omics data analysis — from raw instrument files to publication-ready figures and biological interpretation. No programming required.
+**Profiler** is a free, open, web-based platform for end-to-end multi-omics data analysis, from raw instrument files to publication-ready figures and biological interpretation. No programming required.
 
-Created by **Yanis Zirem** (PhD Candidate, 2025) under the guidance of **Prof. Michel Salzet** and **Prof. Isabelle Fournier**.
 
 ---
 
