@@ -35,8 +35,11 @@ If you use **Profiler** in your research, please cite:
 | **Regression modeling** | ML and MLP for continuous targets (R², RMSE, residual plots, cross-validation) |
 | **Longitudinal analysis** | Mixed-effects models, trajectory plots, repeated-measures stats (`Subject_ID` + `Time`) |
 | **HTML report generation** | One-click self-contained export of all session plots, tables, and metrics |
-| **SHAP / LIME improved** | Beeswarm, bar, force plots; sample-level and global explanations |
-| **Raw data conversion** | Bruker `.d`, Waters `.raw`, Thermo Fisher → `.mzML` / `.mzXML` directly in the sidebar |
+| **Clinical metadata support** |  any column ending with `_meta` is treated as clinical metadata; available as alternative classification/regression targets, and used to colour heatmap annotations, PCA/UMAP points, and model training |
+| **Extended format support** | auto-detection extended to Spectronaut, FragPipe, DESeq2/edgeR, Salmon, kallisto, MetaboAnalyst, XCMS, MZmine... |
+| **New graphical interface** |  Redesigned UI with improved layout, cleaner navigation and a live pipeline status indicator updated at each step so you always know where you are in the workflow
+- **Extended format support** — auto-detection extended to Spectronaut, FragPipe, DESeq2/edgeR, Salmon, kallisto, MetaboAnalyst, XCMS, MZmine... |
+
 
 ---
 
@@ -112,12 +115,14 @@ Every plot is fully interactive (Plotly) — zoom, pan, hover, lasso selection, 
 ---
 
 ### AI Modeling — Classification & Regression *(v1.2)*
+**Clustering:**
+- K-Means to detect new groups
+- Silhouette criterion to find the optimal number of clusters, avoiding over- or under-segmentation
 
 **Classification:**
-- Random Forest, XGBoost, SVM, Gradient Boosting, k-NN
-- Logistic Regression, PLS-DA
-- MLP (Deep Learning) — configurable layers, dropout, early stopping
-- Cross-validation, hyperparameter tuning, ROC curves, confusion matrices
+- Random Forest, XGBoost, SVM, Gradient Boosting, k-NN...
+- Logistic Regression, PLS-DA...
+- Cross-validation, model comparaison and optimal model, ROC curves, confusion matrices...
 
 **Regression** *(new in v1.2):*
 - Linear Regression, Random Forest Regressor, XGBoost Regressor, MLP
@@ -251,20 +256,6 @@ Full instructions: [MSI2Profiler README](https://github.com/yanisZirem/prism-pro
 ✅ No installation — fully browser-based  
 ✅ No account required  
 ✅ Free and open access
-
----
-
-## Tech Stack
-
-- **Python** · **Streamlit**
-- **scikit-learn** · **XGBoost** · **TensorFlow** (MLP)
-- **pandas** · **numpy** · **scipy** · **statsmodels**
-- **plotly** · **lifelines** (survival)
-- **gseapy** (GSEA + ORA)
-- **shap** · **lime**
-- **NeuroCombat** (ComBat batch correction)
-- **imbalanced-learn** (SMOTE / ADASYN)
-- Custom modules for omics parsing, format detection, modeling and reporting
 
 ---
 
