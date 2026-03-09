@@ -261,7 +261,7 @@ Full instructions: [MSI2Profiler README](https://github.com/yanisZirem/prism-pro
 
 ## Authors & Contact
 
-**Yanis Zirem**, PhD Candidate (2025)  
+**Yanis Zirem**
 📧 yanis.zirem@univ-lille.fr
 
 Supervised by:
