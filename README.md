@@ -271,7 +271,7 @@ Supervised by:
 **PRISM U1192 Laboratory** — Protéomique, Réponse Inflammatoire, Spectrométrie de Masse  
 INSERM — Université de Lille
 
-Protected by **INSERM Transfert** — APP/IDDN.FR2.0013.0300044.0005.S6.C7.20258.0009.312301
+Protected by **INSERM Transfert** — APP/IDDN.FR.001.030004.000.S.C.2025.000.31230
 
 ---
 
